@@ -155,7 +155,7 @@ class Record:
 ZONES = {}
 
 try:
-  get_zones = requests.get('https://github.com/MxAriadne/RiiConnect24-DNS/blob/master/dns_zones.json', timeout=5)
+  get_zones = requests.get('https://raw.githubusercontent.com/MxAriadne/RiiConnect24-DNS/master/dns_zones.json', timeout=5)
 except requests.exceptions.Timeout:
   print("[ERROR] Couldn't load DNS data: connection to GitHub timed out.")
   print("[ERROR] Are you connected to the Internet?")
