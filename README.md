@@ -1,3 +1,6 @@
+# This is an updated fork of RiiConnect24 DNS Server. I've simply updated the DNS link and IPs for Nintendo and Kaeru servers!
+
+
 RiiConnect24 DNS Server [![Actions Status](https://github.com/RiiConnect24/DNS-Server/workflows/Build/badge.svg)](https://github.com/RiiConnect24/DNS-Server/actions)
 ===
 
